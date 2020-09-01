@@ -1,0 +1,129 @@
+html, body{
+    margin:0px;
+    padding: 0px;
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  position: relative;
+  padding: 50px;
+  text-align: right;
+  font-size: 35px;
+}
+
+.logo{
+  max-width:170px;
+	left:5%;
+  top: 25%;
+}
+
+.buttons{
+  width: 8%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.background_1{
+    background-color: rgb(207, 183, 170) !important;
+}
+
+.background_2{
+    background-color:rgb(234, 235, 239) !important;
+}
+
+.background_3{
+    background-color: rgb(241, 183, 153) !important;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left left right right right' 
+    'footer footer footer footer footer footer';
+} 
+
+.left,
+.right {
+  padding: 50px;
+}
+
+.left{
+    grid-area: left;
+}
+  
+.right {
+    grid-area: right;
+}
+
+img {
+  max-width:661px;
+  width: auto;
+  height: auto;
+  background-size: contain;
+  position:absolute;
+	left:51%;
+  top:20%;
+}
+
+.mural_De_Mensagens{
+  width:320px; 
+  margin-top:5px; 
+  border-radius:20px; 
+  padding: 5px 15px
+}
+
+.caixa_Nome{
+  display:block;
+  margin-top:5px; 
+  height:25px; 
+  padding-left:10px; 
+  width:450px;
+  height:30px;
+}
+
+.caixa_Texto{
+  display:block;
+  margin-top:5px; 
+  height:25px; 
+  padding-left:10px; 
+  width:450px;
+  height:100px;
+}
+
+.btnEnviar{
+  background-color:black;
+  color: white;
+  width: 40%;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer {
+  grid-area: footer;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.btncreditos{
+  background-color: white;
+  color:black;
+  width: 10%;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
